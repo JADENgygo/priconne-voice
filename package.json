@@ -1,0 +1,11 @@
+{
+  "name": "priconne-voice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JADENgygo/priconne-voice.git",
+  "author": "JADEN <29948746+JADENgygo@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "reload": "^3.2.0"
+  }
+}

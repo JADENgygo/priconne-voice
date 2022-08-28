@@ -1,0 +1,23 @@
+<html>
+  <head>
+		<meta charSet="utf-8" />
+  </head>
+  <body>
+    <button id="button">再生</button>
+    <script>
+      document.getElementById('button').addEventListener('click', async () => {
+        const a = [
+          new Audio("audio/あ.mp3"),
+          new Audio("audio/い.mp3"),
+          new Audio("audio/う.mp3"),
+          new Audio("audio/え.mp3"),
+          new Audio("audio/お.mp3"),
+        ];
+        for (let i = 0; i < 5; ++i) {
+          await a[i].play();
+          await new Promise(resolve => setTimeout(resolve, 1000));
+        }
+      });
+    </script>
+  </body>
+</html>
